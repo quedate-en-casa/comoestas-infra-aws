@@ -1,0 +1,14 @@
+cf_aliases                                                 = []
+s3_bucket_name                                             = "s3-comoestas-dev"
+s3_bucket_acl                                              = "private"
+s3_bucket_origin_id                                        = "comoestas"
+cf_distribution_enabled                                    = true
+cf_distribution_price_class                                = "PriceClass_100"
+cf_default_root_object                                     = "/index.html"
+cf_default_cache_behavior_allowed_methods                  = ["GET", "HEAD"]
+cf_default_cache_behavior_cached_methods                   = ["GET", "HEAD"]
+cf_default_cache_behavior_forwarded_values_query_string    = false
+cf_default_cache_behavior_forwarded_values_cookies_forward = "none"
+cf_default_cache_behavior_viewer_protocol_policy           = "redirect-to-https"
+cf_default_certificate                                     = true
+cf_distribution_restriction_type                           = "none"
