@@ -1,10 +1,10 @@
-# Infraestructura Sucursal Virtual Chilquinta en AWS
+# Infraestructura Como Estas
 
-- [Infraestructura Sucursal Virtual Chilquinta en AWS](#infraestructura-sucursal-virtual-chilquinta-en-aws)
+- [Infraestructura Como Estas](#infraestructura-como-estas)
   - [Pre-requisitos](#pre-requisitos)
-    - [Instalación Terraform](#instalaci%c3%b3n-terraform)
-    - [Instalación Terragrunt](#instalaci%c3%b3n-terragrunt)
-    - [Instalación Terraform Lint](#instalaci%c3%b3n-terraform-lint)
+    - [Instalación Terraform](#instalación-terraform)
+    - [Instalación Terragrunt](#instalación-terragrunt)
+    - [Instalación Terraform Lint](#instalación-terraform-lint)
   - [Getting started](#getting-started)
   - [Estructura del proyecto](#estructura-del-proyecto)
 
@@ -83,10 +83,10 @@ TFLint version 0.15.3
 
 ## Getting started
 
-Para probar los scripts de **Terragrunt**, usaremos el ambiente de stage. Para comenzar se deben crear las credenciales de AWS CLI indicando como profile el valor **nuwit**.
+Para probar los scripts de **Terragrunt**, usaremos el ambiente de stage. Para comenzar se deben crear las credenciales de AWS CLI indicando como profile el valor **x**.
 
 ```shell
-aws configure --profile nuwit
+aws configure --profile x
 ```
 
 A continuación se solicitarán las credenciales, región y el formato de la salida de los comandos.
